@@ -13,22 +13,22 @@ The patterns are tackled in order of increasing complexity, from foundational co
 
 ## Pattern Projects
 
-### 1. **Singleton** - Application Configuration Manager
+### 1. **Singleton** - Application Configuration Manager ✅
 *Ensuring a single, globally accessible configuration instance*
 
-### 2. **Factory Method** - Document Export System
+### 2. **Factory Method** - Document Export System ▶️
 *Creating exporters for different file formats through a flexible factory hierarchy*
 
-### 3. **Strategy** - Payment Processing System
+### 3. **Strategy** - Payment Processing System ⏸️
 *Implementing interchangeable payment methods with runtime selection*
 
-### 4. **Observer** - Weather Monitoring Station
+### 4. **Observer** - Weather Monitoring Station ⏸️
 *Building auto-updating displays that respond to weather data changes*
 
-### 5. **Decorator** - Coffee Shop Beverage System
+### 5. **Decorator** - Coffee Shop Beverage System ⏸️
 *Dynamically adding condiments and extras to beverages with cost calculation*
 
-### 6. **Abstract Factory** - Cross-Platform Notification and Logging System
+### 6. **Abstract Factory** - Cross-Platform Notification and Logging System ⏸️
 *Generating platform-specific notification and logging families for Windows, macOS, and Linux*
 
 ---
