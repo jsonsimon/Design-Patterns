@@ -1,0 +1,1 @@
+After completing this assignment, I feel amazed that different instances of the same class can get the same information, even if the instances are in different classes. I think this would be very applicable to systems where a type of format is used, e.g., logging in a company. Adding info in one instance automatically adds it to the others. Cool!
