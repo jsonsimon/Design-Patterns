@@ -16,10 +16,10 @@ The patterns are tackled in order of increasing complexity, from foundational co
 ### 1. **Singleton** - Application Configuration Manager ✅
 *Ensuring a single, globally accessible configuration instance*
 
-### 2. **Factory Method** - Document Export System ▶️
+### 2. **Factory Method** - Document Export System ✅
 *Creating exporters for different file formats through a flexible factory hierarchy*
 
-### 3. **Strategy** - Payment Processing System ⏸️
+### 3. **Strategy** - Payment Processing System ▶️
 *Implementing interchangeable payment methods with runtime selection*
 
 ### 4. **Observer** - Weather Monitoring Station ⏸️
