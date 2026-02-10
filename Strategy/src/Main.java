@@ -2,9 +2,20 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String [] args){
+        Cart cart = new Cart();
+        boolean keepGoing = true;
         Scanner scan = new Scanner(System.in);
-        System.out.println("How much are you going to pay?");
-        double amount = scan.nextDouble();
+        do {
+            System.out.println("How much does it cost?");
+            double amount = scan.nextDouble();
+            cart.addToCart(amount);
+            System.out.println("Do you want to pay or add more? \n [0] Pay \n [1] Continue");
+            int decide = scan.nextInt();
+            if (decide == 0) {
+                keepGoing = false;
+            }
+        }while (keepGoing);
+
         System.out.println("""
                 What method will you pay with?
                 [1] Credit Card
@@ -12,20 +23,9 @@ public class Main{
                 [3] Crypto
                 """);
         int system = scan.nextInt();
-        IPayment paySystem = getSystem(system);
-        paySystem.processPayment(amount);
+        cart.getSystem(system);
+        cart.payment();
 
     }
-    private static IPayment getSystem(int system){
-        switch (system){
-            case 1:
-                return new CreditCard();
-            case 2:
-                return new PayPal();
-            case 3:
-                return new Crypto();
-            default:
-                return null;
-        }
-    }
+
 }
