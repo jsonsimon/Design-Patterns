@@ -19,10 +19,10 @@ The patterns are tackled in order of increasing complexity, from foundational co
 ### 2. **Factory Method** - Document Export System ✅
 *Creating exporters for different file formats through a flexible factory hierarchy*
 
-### 3. **Strategy** - Payment Processing System ▶️
+### 3. **Strategy** - Payment Processing System ✅
 *Implementing interchangeable payment methods with runtime selection*
 
-### 4. **Observer** - Weather Monitoring Station ⏸️
+### 4. **Observer** - Weather Monitoring Station ▶️
 *Building auto-updating displays that respond to weather data changes*
 
 ### 5. **Decorator** - Coffee Shop Beverage System ⏸️
